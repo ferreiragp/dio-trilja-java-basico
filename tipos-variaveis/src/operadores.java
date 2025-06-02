@@ -19,6 +19,8 @@ System.out.println("numero 1 é igual a numero 2? " + simNao);
         //contatenação        
 String nomeCompleto = "LIGUAGUEM" + "JAVA";
 
+System.out.println(nomeCompleto);
+
 String contatenacao = "?";
 contatenacao = 1 + 1 + 1 + "1";
 
@@ -99,7 +101,26 @@ System.out.println(varival);
 
     public static void logico() {
 
-        
+        //para ligar 2 condicoes 
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if(condicao1 && condicao2) {
+
+            System.out.println("as duas condicoes sao verdadeiras");
+
+        }
+         if(condicao1 || condicao2) {
+
+            System.out.println("uma condicoes sao verdadeiras");
+
+        }
+        // relacional tembem pode ser usada
+        if(condicao1 && (7 > 4)) {
+
+            System.out.println("as duas condicoes sao verdadeiras");
+
+        }
 
     }
 
